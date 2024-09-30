@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(5, 28, 80);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 400px;
+    background-color: aqua;
+    margin-top: 100px;
+    border: 2px solid #a9a9a9;
+    border-radius: 10px;
+    padding: 10px;
+}
+main #score{
+    color: brown;
+    font-size: 5rem;
+    margin-top: 20px;
+}
+main .add{
+    padding: 20px;
+    width: 250px;
+    color: #fff;
+    border: none;
+    margin-block: 10px;
+    background-color: rgb(46, 46, 110);
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+main .sub{
+    padding: 20px;
+    width: 250px;
+    color: #fff;
+    border: none;
+    margin-block: 10px;
+    background-color: rgb(145, 17, 5);
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+main .save-btn{
+    padding: 20px;
+    width: 250px;
+    color: #fff;
+    border: none;
+    margin-block: 10px;
+    background-color: rgb(89, 17, 84);
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+main .reset-btn{
+    padding: 20px;
+    width: 250px;
+    color: #fff;
+    border: none;
+    margin-block: 10px;
+    background-color: rgb(9, 85, 22);
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+p{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
